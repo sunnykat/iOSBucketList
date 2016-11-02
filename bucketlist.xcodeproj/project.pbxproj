@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		2F2C92691DCA8BA600E657CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2C92681DCA8BA600E657CB /* AppDelegate.swift */; };
-		2F2C926B1DCA8BA600E657CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2C926A1DCA8BA600E657CB /* ViewController.swift */; };
+		2F2C926B1DCA8BA600E657CB /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2C926A1DCA8BA600E657CB /* BucketListViewController.swift */; };
 		2F2C926E1DCA8BA600E657CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2C926C1DCA8BA600E657CB /* Main.storyboard */; };
 		2F2C92701DCA8BA600E657CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F2C926F1DCA8BA600E657CB /* Assets.xcassets */; };
 		2F2C92731DCA8BA600E657CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2C92711DCA8BA600E657CB /* LaunchScreen.storyboard */; };
 		2F2C927E1DCA8BA600E657CB /* bucketlistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2C927D1DCA8BA600E657CB /* bucketlistTests.swift */; };
 		2F2C92891DCA8BA600E657CB /* bucketlistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2C92881DCA8BA600E657CB /* bucketlistUITests.swift */; };
+		2F2C92971DCA9C4100E657CB /* MissionDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2C92961DCA9C4100E657CB /* MissionDetailsViewController.swift */; };
+		2F2C92991DCA9E1F00E657CB /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2C92981DCA9E1F00E657CB /* CancelButtonDelegate.swift */; };
+		2F2C929B1DCAA25800E657CB /* MissionDetailslViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2C929A1DCAA25800E657CB /* MissionDetailslViewControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		2F2C92651DCA8BA600E657CB /* bucketlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bucketlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F2C92681DCA8BA600E657CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F2C926A1DCA8BA600E657CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F2C926A1DCA8BA600E657CB /* BucketListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
 		2F2C926D1DCA8BA600E657CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F2C926F1DCA8BA600E657CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F2C92721DCA8BA600E657CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		2F2C92841DCA8BA600E657CB /* bucketlistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bucketlistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F2C92881DCA8BA600E657CB /* bucketlistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bucketlistUITests.swift; sourceTree = "<group>"; };
 		2F2C928A1DCA8BA600E657CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F2C92961DCA9C4100E657CB /* MissionDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionDetailsViewController.swift; sourceTree = "<group>"; };
+		2F2C92981DCA9E1F00E657CB /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
+		2F2C929A1DCAA25800E657CB /* MissionDetailslViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionDetailslViewControllerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				2F2C92681DCA8BA600E657CB /* AppDelegate.swift */,
-				2F2C926A1DCA8BA600E657CB /* ViewController.swift */,
+				2F2C926A1DCA8BA600E657CB /* BucketListViewController.swift */,
+				2F2C92961DCA9C4100E657CB /* MissionDetailsViewController.swift */,
 				2F2C926C1DCA8BA600E657CB /* Main.storyboard */,
 				2F2C926F1DCA8BA600E657CB /* Assets.xcassets */,
 				2F2C92711DCA8BA600E657CB /* LaunchScreen.storyboard */,
 				2F2C92741DCA8BA600E657CB /* Info.plist */,
+				2F2C92981DCA9E1F00E657CB /* CancelButtonDelegate.swift */,
+				2F2C929A1DCAA25800E657CB /* MissionDetailslViewControllerDelegate.swift */,
 			);
 			path = bucketlist;
 			sourceTree = "<group>";
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F2C926B1DCA8BA600E657CB /* ViewController.swift in Sources */,
+				2F2C929B1DCAA25800E657CB /* MissionDetailslViewControllerDelegate.swift in Sources */,
+				2F2C926B1DCA8BA600E657CB /* BucketListViewController.swift in Sources */,
+				2F2C92971DCA9C4100E657CB /* MissionDetailsViewController.swift in Sources */,
+				2F2C92991DCA9E1F00E657CB /* CancelButtonDelegate.swift in Sources */,
 				2F2C92691DCA8BA600E657CB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
